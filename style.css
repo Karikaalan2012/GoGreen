@@ -4,7 +4,8 @@
   box-sizing: border-box;
    font-style: normal;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lobster", sans-serif;
+  font-weight: 300;
 }
 
 body {
@@ -119,6 +120,7 @@ main .content-left p {
 }
 
 .cta a {
+  font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
   text-transform: uppercase;
   color: #ffffff;
@@ -127,6 +129,7 @@ main .content-left p {
 }
 
 .signup {
+  font-family: "Poppins", sans-serif;
   padding: 10px 20px;
   background-color: rgb(1, 44, 1);
   color: white;
@@ -262,11 +265,11 @@ h3 {
   margin: 1em 0;
 }
 
-p {
-  color: black;
+.row .column .card p {
   font-size: 15px;
   line-height: 1.6;
   letter-spacing: 0.03em;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .icon-wrapper {
